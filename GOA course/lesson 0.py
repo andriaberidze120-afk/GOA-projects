@@ -1,7 +1,7 @@
 from turtle import *
 
 shape("turtle")
-speed(30)
+speed(10)
 
 color("blue")
 begin_fill()
@@ -26,7 +26,7 @@ right(90)
 forward(120)
 end_fill()
 
-speed(5)
+
 penup()
 goto(200, 200)
 pendown()
@@ -38,7 +38,7 @@ left(80)
 forward(130)
 end_fill()
 
-speed(10)
+
 penup()
 goto(30, 150)
 pendown()
@@ -54,7 +54,7 @@ right(90)
 forward(35)
 end_fill()
 
-speed(10)
+
 penup()
 goto(175, 150)
 pendown()
@@ -70,16 +70,16 @@ forward(35)
 end_fill()
 
 penup()
-goto(-380, 0)
+goto(-400, 0)
 color("green")
 pendown()
 begin_fill()
 left(90)
-forward(750)
+forward(775)
 right(90)
 forward(300)
 right(90)
-forward(750)
+forward(775)
 end_fill()
 
 exitonclick()
